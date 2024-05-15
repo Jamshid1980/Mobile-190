@@ -1,0 +1,300 @@
+/* General styles start */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* @media 576px start */
+
+/* navbar start */
+
+.container {
+    padding: 0 1rem;
+}
+
+.container nav {
+    padding: 2rem 0;
+}
+
+.container nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.container nav ul li:first-child {
+    margin-left: 0;
+}
+
+.container nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* navbar end */
+
+/* main section start */
+
+/* first section start */
+
+.first-section{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* first section end */
+
+/* two section start */
+
+.two-section form{
+    position: relative;
+    padding: 2rem 0;
+}
+
+.two-section form label i:nth-child(1){
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.two-section form label i:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+}
+
+.two-section form input{
+    padding: 1rem;
+    padding-left: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.two-section form input:placeholder{
+    margin-left: 5rem;
+}
+
+/* two section end */
+
+/* three-section start */
+.three-section ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-section ul li:nth-child(1){
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.three-section ul li:nth-child(2){
+    margin-right: 0;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+/* three-section end */
+
+/* four section start */
+.four-section{
+    padding: 2rem 0;
+}
+
+.four-section .container ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.four-section .container ul li{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(134, 133, 133);
+}
+
+.four-section .container ul li:nth-child(1){
+    margin-left: 0;
+}
+
+.four-section .container ul li:nth-child(4){
+    margin-right: 0;
+}
+
+.four-section .container ul li a{
+    text-decoration: none;
+}
+/* four section end */
+
+/* five-section start */
+
+.five-section{
+    padding: 2rem 0;
+}
+
+.five-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.five-section ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.five-section ul li:nth-child(2){
+    margin-right: 0;
+}
+
+.five-section ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+/* five-section end */
+
+/* sex section start */
+
+.sex-section .container .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.sex-section .container .cards .card{
+    background-color: #D1D1D1;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.sex-section .container .cards .card ul:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+#in{
+    margin-left: 0;
+    background-color: blue;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.sex-section .container .cards .card ul:nth-child(1) li:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0;
+    font-size: 1rem;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.sex-section .container .cards .card h1{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 0.7rem;
+}
+
+.sex-section .container .cards .card h6{
+    font-size: 0.8rem;
+    color: rgb(52, 50, 50);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.sex-section .container .cards .card p{
+    padding-bottom: 1.5rem;
+}
+
+.sex-section .container .cards .card p span{
+    margin-left: 0.5rem;
+}
+
+.card-last-child{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-last-child-first-child{
+    margin-left: 0;
+}
+
+.card-last-child-first-child div{
+    position: relative;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card-last-child-first-child div span{
+    position: absolute;
+    z-index: 6;
+    margin-left: 8rem;
+    background-color: #D1D1D1;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+    padding: 0.6rem 0.4rem;
+    color: white;
+}
+
+.card-last-child-first-child div img{
+    position: absolute;
+}
+
+.card-last-child-first-child div img:nth-child(1){
+    z-index: 2;
+}
+
+.card-last-child-first-child div img:nth-child(2) {
+    z-index: 3;
+    margin-left: 2rem;
+}
+
+.card-last-child-first-child div img:nth-child(3) {
+    z-index: 4;
+    margin-left: 4rem;
+}
+
+.card-last-child-first-child div img:nth-child(4) {
+    z-index: 5;
+    margin-left: 6rem;
+}
+
+.card-last-child-last-child{
+    margin-right: 0;
+}
+
+/* sex section end */
+
+/* main section end */
+
+/* @media 576px end */
+
+/* General styles end */

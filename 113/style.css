@@ -1,0 +1,144 @@
+/* General styles start */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* responsive start 576 px */
+
+@media only screen and (max-width: 576px){
+    .container{
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    /* nav start */
+
+    .container nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container nav ul li{
+        list-style: none;
+    }
+
+    .container nav ul li:nth-child(1){
+        margin-left: 0;
+    }
+
+    .container nav ul li:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .container nav ul li a{
+        text-decoration: none;
+    }
+
+    
+    /* nav end */
+
+    /* main section start */
+
+    /* first section start */
+
+    .first-section_header_text{
+        padding: 1rem 0;
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    .first-section_footer_text{
+        font-size: 13px;
+        line-height: 1.2rem;
+    }
+
+    /* first section end */
+
+    /* two section start */
+
+    .two-section-cards{
+        /* padding: 1rem 0; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 44vh;
+        bottom: 0;
+        /* border-radius: 1rem; */
+    }
+
+    .two-section-cards .card{
+        width: 50%;
+    }
+
+    .two-section-cards .card:nth-child(1){
+        background-image: url(./assets/images/two-section-cards-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #3740F2;
+        border-top-left-radius: 3rem;
+    }
+
+    .two-section-cards .card:nth-child(2) {
+        background-image: url(./assets/images/two-section-cards-2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #EC803E;
+        border-top-right-radius: 3rem;
+    }
+
+    .two-section-cards .card:nth-child(3) {
+        background-image: url(./assets/images/two-section-cards-3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #FFD6D6;
+        border-bottom-left-radius: 3rem;
+    }
+
+    .two-section-cards .card:nth-child(4) {
+        background-image: url(./assets/images/two-section-cards-4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #797DD3;
+        border-bottom-right-radius: 3rem;
+    }
+
+    .two-section-cards .card p{
+        font-size: 22px;
+        font-weight: 100;   
+        color: white;
+        margin-top: 7rem;
+        margin-left: 1rem;
+    }
+
+    .two-section-cards .card p span{
+        font-size: 14px;
+    }
+
+    /* two section end */
+
+    /* main section end */
+
+}
+
+/* responsive end 576 px */
+
+/* General styles end */

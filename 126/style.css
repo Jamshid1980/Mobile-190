@@ -1,0 +1,156 @@
+/* General styles start */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+/* header start */
+
+header{
+    padding-top: 1rem;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav_left{
+    width: 40%;
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav_left li:nth-child(1) {
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.header-nav_left li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+.header-nav_right {
+    list-style: none;
+    margin-right: 0;
+}
+
+.header-nav_right li{
+    font-size: 1.2rem;
+}
+
+.header-nav_right li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+}
+
+/* header end */
+
+/* one section start */
+
+.one-section-ul{
+    margin: 1rem 0;
+    margin-left: 0;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.one-section-ul li:nth-child(1) img{
+    margin-left: 0;
+}
+
+.one-section-ul li:nth-child(2) p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.one-section-ul li:nth-child(2) button{
+    margin: 0.5rem 0;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+}
+
+.one-section-ul li:nth-child(2) button img:nth-child(1){
+    margin-right: 0.5rem;
+}
+
+.one-section-ul li:nth-child(2) button span {
+    margin-right: 1rem;
+}
+
+.one-section-text{
+    text-align: left;
+    font-size: 1.2rem;
+    color: rgb(137, 132, 132);
+}
+
+/* one section end */
+
+/* footer start */
+
+
+footer{
+    width: 100%;
+    background-color: rgb(97, 94, 94);
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+.span-white{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin: 2rem 0; */
+    width: 5%;
+    background-color: white;
+    padding: 0.15rem 3rem;
+}
+
+.footer-cards{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-cards p{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+.footer-cards p img{
+    margin-right: 1rem;
+}
+
+/* footer end */
+/* General styles end */

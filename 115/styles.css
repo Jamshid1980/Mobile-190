@@ -1,0 +1,134 @@
+/* General styles start */
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Responsive 576px start */
+
+/* header start */
+
+header{
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+}
+
+header img{
+    width: 100%;
+}
+
+/* header end */
+
+/* main section start */
+
+.container{
+    padding-top: 3rem;
+    padding: 0 1rem;
+    background-color: #EAEBE6;
+}
+
+.container button{
+    margin-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+}
+
+.container button span{
+    font-weight: bolder;
+}
+
+.container-text{
+    line-height: 1.8rem;
+}
+
+.container-text p:nth-child(1){
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-text p:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-time{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.container-time p{
+    margin-left: 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    line-height: 1.5rem;
+    border-right: 0.1rem solid black;
+}
+
+.container-time p span{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.container-time-right{
+    text-align: left;
+    display: flex;
+    /* flex-direction: column; */
+    font-size: 16px;
+    height: 8vh;
+    line-height: 1.7rem;
+}
+
+.container-time-right div{
+    margin-left: left;
+}
+
+.container-text-footer{
+    padding: 1.5rem 0;
+    font-size: 16px;
+}
+
+/* main section end */
+
+/* footer start */
+
+footer{
+    position: sticky;
+    bottom: 0;
+    display: flex;
+}
+
+.btn-left, 
+.btn-right{
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+}
+
+.btn-left{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+/* footer end */
+
+/* Responsive 576px end */
+
+/* General styles end */

@@ -1,0 +1,249 @@
+/* General styles start*/
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* one section start */
+
+.container{
+    padding: 0 1rem;
+}
+
+/* .container-img{
+    width: 100%;
+} */
+
+.container-img{
+    background-color: #ece2e2;
+    position: relative;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #D1D1D1;
+}
+
+.one-section-img{
+    padding-top: 40%;
+    width: 100%;
+    /* height: 40vh; */
+    background-image: url(./assets/images/one-section-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one-section-img-button{
+    background-color: #465449;
+    padding: 0.5rem;
+    color: white;
+    z-index: 2;
+    border: none;
+    font-size: 1rem;
+}
+
+.one-section-img .container h1{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.one-section-img .container h4{
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.one-section-Go{
+    padding: 1rem 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.container-one-section-time{
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.container-one-section-time span:first-child{
+    font-size: 1rem;
+}
+
+.container-one-section-time span:last-child {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.one-section-line{
+    padding: 0.5rem;
+    border-radius: 0.5rem ;
+    background-color: #D1D1D1;
+    margin: 1rem 0;
+}
+
+.one-section-circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-section-circle ul{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one-section-circle ul li{
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #D1D1D1;
+}
+
+.one-section-circle ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.one-section-circle ul li:nth-child(2){
+    margin-left: -2rem;
+}
+
+.one-section-circle ul li:nth-child(3) {
+    margin-left: -2rem;
+}
+
+.one-section-circle p{
+    width: 60%;
+    margin-right: 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.one-section-button{
+    margin: 2rem 0 0 0;
+    width: 100%;
+    background-color: #465449;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 2rem;
+    border: none;
+}
+
+.container-img img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* one section end */
+
+/* two section start */
+
+.two-section{
+    border-bottom: 0.1rem solid #D1D1D1;
+    border-top: 0.1rem solid #D1D1D1;
+    margin-top: 0.8rem;
+    background-color: #ece2e2;
+}
+
+.two-section .container h2{
+    padding: 1rem 0;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.two-section-person{
+    padding: 0 0 1rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.two-section-person li:nth-child(1){
+    margin-left: 0;
+    font-size: 1rem;
+    width: 6%;
+}
+
+.two-section-person li:nth-child(2) {
+    width: 80%;
+    margin-left: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.two-section-person li:nth-child(2) span{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.two-section-person li:nth-child(1) img{
+    width: 100%;
+}
+
+.two-section-globe {
+    padding: 0 0 1rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.two-section-globe li:nth-child(1) {
+    margin-left: 0;
+    font-size: 1rem;
+    width: 6%;
+}
+
+.two-section-globe li:nth-child(2) {
+    width: 80%;
+    margin-left: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.two-section-globe li:nth-child(2) span {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.two-section-globe li:nth-child(1) img {
+    width: 100%;
+}
+
+/* two section end */
+
+/* three section start */
+
+.three-section{
+    border-top: 0.1rem solid #D1D1D1;
+    margin-top: 0.8rem;
+    background-color: #ece2e2;
+    padding-bottom: 2.5rem;
+}
+
+.three-section .container p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.three-section .container h4{
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+/* three section end */
+
+/* General styles end */

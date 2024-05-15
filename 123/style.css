@@ -1,0 +1,244 @@
+/* General styles start */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+/* header start */
+
+header{
+    padding-top: 1rem;
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav ul li:nth-child(1){
+    margin-left: 0;
+}
+ 
+
+.header-nav ul li:nth-last-child(2) {
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    background-color: #d1d1d1;
+}
+
+.header-nav ul li:nth-last-child(2) input{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    margin-left: 0.4rem;
+}
+
+.header-nav ul li:nth-last-child(2) input::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+
+/* header end */
+
+/* one section start */
+
+.one-section{
+    border-bottom: 0.15rem solid #d1d1d1;
+}
+
+.one-section-ul{
+    margin: 0.2rem 0;
+    list-style: none;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.one-section-ul li:nth-child(1){
+    margin-left: 0;
+}
+
+.one-section-ul li:nth-child(2) {
+    margin-right: 0;
+}
+
+.one-section-ul li {
+    font-size: 1.5rem;
+}
+
+/* one section end */
+
+/* two section start */
+
+.two-section{
+    border-top: 0.15rem solid #d1d1d1;
+    border-bottom: 0.01rem solid #d1d1d1;
+}
+
+.two-section-ul{
+    margin: 0.2rem 0;
+    list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+}
+
+.two-section-ul li {
+    font-size: 1.5rem;
+}
+
+.two-section-ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.two-section-ul li:nth-child(2) {
+    margin-right: 0;
+}
+
+/* two section end */
+
+
+/* three section start */
+
+.three-section{
+    border-bottom: 0.3rem solid white;
+}
+
+.three-section-p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.three-section-cards{
+    margin: 2rem 0;
+}
+
+.three-section-card{
+    border-bottom: 0.005rem solid #d1d1d1;
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
+
+.three-section-card ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three-section-card ul li:nth-child(1){
+    margin-left: 0;
+}
+
+.three-section-card ul li:nth-child(2) p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.three-section-card ul li:nth-child(2) p:nth-child(2) {
+    font-weight: 100;
+    font-size: 1rem;
+    color: #d1d1d1;
+}
+
+.three-section-card ul li:nth-child(2) p:nth-child(3) {
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #d1d1d1;
+}
+
+/* three section end */
+
+/* five section start */
+.five-section-p{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.five-section-card{
+    margin-bottom: 2rem;
+    background-image: url(./assets/images/five-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.five-section-card ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+.five-section-card ul li:nth-child(1){
+    margin-left: 0;
+}
+
+.five-section-card ul li:nth-child(2){
+    margin-right: 0;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+}
+
+.five-section-card ul li:nth-child(2) img{
+    margin-right: 0;
+}
+
+.five-section-card ul li:nth-child(2) button{
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: 0.1rem solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4rem;
+}
+
+.five-section-card h2{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.five-section-card h4 {
+    margin-left: 0;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #d1d1d1;
+}
+
+.five-section-card h6 {
+    margin-left: 0;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    color: #d1d1d1;
+}
+/* five section end */
+/* General styles end */

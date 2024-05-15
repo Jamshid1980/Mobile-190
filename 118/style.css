@@ -1,0 +1,132 @@
+/* General styles start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+/* header start */
+
+.container-img{
+    height: 70vh;
+    background-image: url(./assets/images/header-section-img.png);
+    background-size: cover;
+    background-position: top center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.header-cancel-bildirishnoma{
+    list-style: none;
+    padding: 3rem 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-cancel-bildirishnoma li{
+    width: 10%;
+}
+
+.header-cancel-bildirishnoma li:nth-child(1){
+    margin-left: 0;
+}
+
+.header-cancel-bildirishnoma li:nth-child(2) {
+    text-align: right;
+    margin-right: 0;
+}
+
+.header-cancel-bildirishnoma li img{
+    width: 30%;
+}
+
+/* header end */
+
+/* one section start */
+
+.one-section{
+    font-family: sans-serif;
+}
+
+.one-section .container h1{
+    padding: 0.5rem 0 0.6rem 0;
+    font-size: 2.3rem;
+}
+
+.one-section .container h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.one-section-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.one-section-time-left{
+    border-right: 0.2rem solid black;
+    padding-right: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.one-section-time-left p:nth-child(2){
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.one-section-right{
+    list-style: none;
+    line-height: 2;
+}
+
+.one-section-time li:nth-child(2){
+    list-style: none;
+}
+
+.marta{
+    font-weight: bolder;
+}
+
+.text{
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.kcal{
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.kcal span{
+    font-weight: bolder;
+}
+
+.btn{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border: none;
+}
+
+/* one section end */
+
+/* General styles end */
